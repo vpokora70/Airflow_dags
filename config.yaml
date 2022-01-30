@@ -1,0 +1,11 @@
+API:
+  url: "https://robot-dreams-de-api.herokuapp.com/auth"
+  username: "rd_dreams"
+  password: "djT6LasE"
+
+
+AUTH:
+  url: "https://robot-dreams-de-api.herokuapp.com/out_of_stock"
+  Authorization: "JWT "
+  date: ["2021-12-10", "2021-12-11", "2021-12-12", "2021-12-13"]
+  file_name: 'stock.json'

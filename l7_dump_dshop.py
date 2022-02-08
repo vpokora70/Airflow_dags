@@ -3,7 +3,7 @@ import csv
 import psycopg2
 from psycopg2 import Error
 
-pg_creds = {"host": "192.168.68.108",
+pg_creds = {"host": "192.168.68.110",
             "port": 5432,
             "database": "dshop",
             "user": "pguser",

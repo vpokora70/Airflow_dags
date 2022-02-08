@@ -19,7 +19,7 @@ def ap(**kwargs):
     #process_date = kwargs['ds']
     #print(f"kwargs[ds]= {kwargs['ds']}")
     process_date = '2021-12-08'
-    # store_folder = str(date.today())
+    #store_folder = str(datetime.today())
 
     url1 = 'https://robot-dreams-de-api.herokuapp.com/auth'
     data = {'username': "rd_dreams", 'password': "djT6LasE"}

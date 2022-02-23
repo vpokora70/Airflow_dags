@@ -26,3 +26,6 @@ def ld_hadoop(**kwargs):
 if __name__ == '__main__':
     ld_hadoop()
 
+# if __name__ == '__main__':
+#     ld_hadoop(table='departments', postgres_conn_id='my_postgres',
+#               hdfs_path='/my_folder/', hadoop_server='http://127.0.0.1:50070', user='user')
